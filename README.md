@@ -9,6 +9,6 @@ sh ./install.sh
 
 after first open vim will auto install
 
-thin：
+thanks：
 
 http://vimcdoc.sourceforge.net/doc/
