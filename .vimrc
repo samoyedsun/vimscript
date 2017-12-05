@@ -9,21 +9,23 @@ set incsearch
 set ai!
 set ruler
 set nohls
-syntax enable
-set background=dark
 
+" init vundle
 set nocompatible              " 去除VI一致性,必须
 filetype off                  " 必须
-" 设置包括vundle和初始化相关的runtime path
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" 让vundle管理插件版本,必须
-Plugin 'VundleVim/Vundle.vim'
+set rtp+=~/.vim/bundle/Vundle.vim " 设置包括vundle和初始化相关的runtime path
+call vundle#begin()			  " vundle初始化
+Plugin 'VundleVim/Vundle.vim' " 让vundle管理插件版本,必须
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
-call vundle#end()            " 必须
+call vundle#end()            " 必须 getcwd() . 
 filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
-
+let s:solar_path_list = findfile('solarized.vim',$HOME."/.vim/bundle/vim-colors-solarized/colors", -1)
+if len(s:solar_path_list) == 0	
+	PluginInstall
+endif
+syntax enable
+set background=dark
 colorscheme solarized
 
 map <F2> :silent! NERDTreeToggle<CR>

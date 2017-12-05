@@ -1,16 +1,14 @@
 # mr_zvim
-mr_z的vim插件
+mr_z vim script
 
-安装:
-
+install:
 
 git clone git@github.com:samoyedsun/mr_zvim.git
 
-
 sh ./install.sh
 
+after first open vim will auto install
 
-感谢：
-
+thin：
 
 http://vimcdoc.sourceforge.net/doc/
