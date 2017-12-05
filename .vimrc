@@ -1,4 +1,5 @@
 " base config
+set fileencodings=ucs-bom,utf-8,gbk,cp936
 set nu
 set mouse=n
 set tabstop=4
