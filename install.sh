@@ -1,13 +1,8 @@
 #!/bin/sh
 git submodule update --init
 cp .vimrc $HOME/.vimrc
-VIMDIR="$HOME/.vim"
-if [ ! -x $VIMDIR ]; then
-    mkdir $VIMDIR
+BUNDLEDIR="$HOME/.vim/bundle"
+if [ ! -x $BUNDLEDIR ]; then
+    mkdir -p $BUNDLEDIR
 fi
-cp -rf ./nerdtree/autoload \
-		./nerdtree/doc  \
-		./nerdtree/lib  \
-		./nerdtree/plugin \
-		./vim-colors-solarized/colors \
-		$VIMDIR
+cp -rf ./Vundle.vim ./nerdtree ./vim-colors-solarized $BUNDLEDIR
