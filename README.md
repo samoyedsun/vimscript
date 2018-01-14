@@ -7,8 +7,6 @@ git clone git@github.com:samoyedsun/mr_zvim.git
 
 sh ./install.sh
 
-first start vim will auto install
-
 # thanks：
 
 http://vimcdoc.sourceforge.net/doc/
