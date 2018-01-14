@@ -4,4 +4,8 @@ BUNDLEDIR="$HOME/.vim/bundle"
 if [ ! -x $BUNDLEDIR ]; then
     mkdir -p $BUNDLEDIR
 fi
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+VUNDLEPATH="$HOME/.vim/bundle/Vundle.vim"
+if [ ! -x $VUNDLEPATH ]; then
+	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+	vim
+fi
