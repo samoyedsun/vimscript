@@ -24,6 +24,7 @@ if len(s:tmplist) == 0
 	PluginInstall
 endif
 
+syntax enable
 set background=light
 colorscheme default "/usr/share/vim/vim74/colors/
 
