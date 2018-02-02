@@ -17,12 +17,13 @@ set rtp+=~/.vim/bundle/Vundle.vim 		" 设置包括vundle和初始化相关的run
 call vundle#begin()			  			" vundle初始化
 Plugin 'VundleVim/Vundle.vim' 			" 让vundle管理插件版本,必须
 Plugin 'scrooloose/nerdtree'
+Plugin 'spin6lock/vim_sproto'
 call vundle#end()            			" 必须 
 filetype plugin indent on    			" 必须 加载vim自带和插件相应的语法和文件类型相关脚本
-let s:tmplist = findfile('NERD_tree.vim',$HOME."/.vim/bundle/nerdtree/plugin/", -1)
-if len(s:tmplist) == 0	
-	PluginInstall
-endif
+"let s:tmplist = findfile('NERD_tree.vim',$HOME."/.vim/bundle/nerdtree/plugin/", -1)
+"if len(s:tmplist) == 0	
+"	PluginInstall
+"endif
 
 syntax enable
 set background=light
