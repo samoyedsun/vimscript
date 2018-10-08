@@ -1,14 +1,10 @@
-# mr_zvim
-mr_z vim script
+# vimscript
+- install:
+  ``` shell
+  git clone git@github.com:samoyedsun/vimscript.git
+  cd vimscript && sh ./install.sh
+  ```
+- open vim and enter: PluginInstall
 
-# install:
-
-git clone git@github.com:samoyedsun/mr_zvim.git
-
-sh ./install.sh
-
-Open vim and enter: PuginInstall
-
-# thanks：
-
-http://vimcdoc.sourceforge.net/doc/
+# thanks
+- http://vimcdoc.sourceforge.net/doc/
