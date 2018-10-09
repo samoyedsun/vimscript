@@ -14,7 +14,7 @@ export PS1='\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0
 alias ls="ls -G"
 ```
 
-#### iTerm2主题:
+##### iTerm2主题
 - https://github.com/mbadolato/iTerm2-Color-Schemes
 
 ##### thanks
