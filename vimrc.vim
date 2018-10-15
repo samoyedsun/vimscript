@@ -3,6 +3,7 @@ set fileencodings=ucs-bom,utf-8,gbk,cp936
 set nonu
 set mouse=n
 set tabstop=4
+set expandtab
 set shiftwidth=4
 set hlsearch
 set incsearch
@@ -32,6 +33,9 @@ colorscheme default "/usr/share/vim/vim74/colors/
 map <F2> :silent! NERDTreeToggle<CR>
 map <F8> :silent! TagbarToggle<CR>
 map <F9> :silent! FufCoverageFile<CR>
+let NERDTreeWinPos=0     "将NERDTree放置在编辑区,1右边 0左边
+let NERDTreeWinSize=20   "设置NERDTree的宽度,默认为30
+let NERDTreeShowHidden=1 "显示隐藏文件
 
 " status bar
 set laststatus=2

@@ -1,5 +1,5 @@
 #!/bin/sh
-cp .vimrc $HOME/.vimrc
+cp vimrc.vim $HOME/.vimrc
 BUNDLEDIR="$HOME/.vim/bundle"
 if [ ! -x $BUNDLEDIR ]; then
     mkdir -p $BUNDLEDIR
