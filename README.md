@@ -23,7 +23,7 @@
     alias ls="ls -G"
     alias python="/usr/bin/python2.7"
     ```
-##### kubectl环境
+- 4. kubectl环境:
     ``` shell
     sudo easy_install pip
     sudo pip install nose
