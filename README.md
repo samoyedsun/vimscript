@@ -1,12 +1,12 @@
 ##### vimscript
-- 1. 执行以下脚本:
+- 执行以下脚本:
     ``` shell
     git clone git@github.com:samoyedsun/vimscript.git
     cd vimscript && sh ./install.sh
     ```
-- 2. 打开vim输入:PluginInstall然后回撤
+- 打开vim输入:PluginInstall然后回撤
 
-- 3. 终端高亮:
+- 终端高亮:
     ``` shell
     # 向.bash_profile加入以下内容
     PATH=$PATH:$HOME/bin
@@ -23,7 +23,7 @@
     alias ls="ls -G"
     alias python="/usr/bin/python2.7"
     ```
-- 4. kubectl环境:
+- kubectl环境:
     ``` shell
     sudo easy_install pip
     sudo pip install nose
