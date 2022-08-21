@@ -28,7 +28,7 @@ filetype plugin indent on    			" 必须 加载vim自带和插件相应的语法
 
 syntax enable
 set background=light
-colorscheme morning "/usr/share/vim/*/colors/
+colorscheme industry "/usr/share/vim/*/colors/
 
 map <F2> :silent! NERDTreeToggle<CR>
 map <F8> :silent! TagbarToggle<CR>
